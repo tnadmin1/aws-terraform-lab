@@ -1,0 +1,32 @@
+# Terraform state and lock files
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+.terraform/
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Sensitive variable files — never commit these
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan output files (may contain sensitive data)
+*.tfplan
+
+# AWS credentials and config
+.aws/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
