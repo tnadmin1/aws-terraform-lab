@@ -24,7 +24,7 @@ Built and validated against live AWS environments. Every phase is fully document
 | Phase | Capability | Status |
 |-------|-----------|--------|
 | Phase 1 | Core VPC — subnets, IGW, route tables, security groups | ✅ Complete |
-| Phase 2 | EC2 instances, key pairs, IAM roles, outputs | 🔲 Planned |
+| Phase 2 | EC2 instances, key pairs, IAM roles, outputs | ✅ Complete |
 | Phase 3 | Reusable modules — VPC, compute, security | 🔲 Planned |
 | Phase 4 | Remote state — S3 backend + DynamoDB state locking | 🔲 Planned |
 | Phase 5 | Multi-tier architecture — public/private subnets, NAT Gateway, bastion host | 🔲 Planned |
